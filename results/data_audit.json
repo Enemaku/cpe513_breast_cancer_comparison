@@ -1,0 +1,11 @@
+{
+  "rows": 569,
+  "features": 30,
+  "missing_values": 0,
+  "duplicate_feature_rows": 0,
+  "malignant": 212,
+  "benign": 357,
+  "malignant_percent": 37.258347978910365,
+  "high_corr_pairs_abs_r_ge_0.90": 21,
+  "max_abs_correlation": 0.9978552814938109
+}

@@ -1,0 +1,5 @@
+algorithm,full_data_best_params,full_data_inner_roc_auc,refit_search_time_s
+Logistic Regression,"{""model__C"": 0.1}",0.9943849141359786,0.2577681840000423
+k-NN,"{""model__n_neighbors"": 15, ""model__weights"": ""distance""}",0.9934250312382478,0.25160788499999853
+Random Forest,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1, ""model__n_estimators"": 30}",0.9899733673357977,2.29792025200004
+RBF SVM,"{""model__C"": 10, ""model__gamma"": 0.01}",0.9957079687426887,0.5462714629999255

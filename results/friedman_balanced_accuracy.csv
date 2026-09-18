@@ -1,0 +1,2 @@
+metric,test,statistic,p_value,n_paired_folds,algorithms
+balanced_accuracy,Friedman,21.419580419580434,8.613074203955638e-05,15,Logistic Regression; RBF SVM; Random Forest; k-NN

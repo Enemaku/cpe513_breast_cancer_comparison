@@ -1,0 +1,105 @@
+Audit: {'rows': 569, 'features': 30, 'missing_values': 0, 'duplicate_feature_rows': 0, 'malignant': 212, 'benign': 357, 'malignant_percent': 37.258347978910365, 'high_corr_pairs_abs_r_ge_0.90': 21, 'max_abs_correlation': 0.9978552814938109}
+Environment: {'python': '3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]', 'platform': 'Linux-6.18.44-x86_64-with-glibc2.41', 'machine': 'x86_64', 'processor': '', 'cpu_count': 5, 'scikit_learn': '1.8.0', 'numpy': '2.3.5', 'pandas': '2.2.3', 'scipy': '1.17.0', 'matplotlib': '3.10.8', 'cpu_model': 'AMD EPYC 9V74 80-Core Processor', 'ram_gb': 5.81}
+
+=== main_scaled: Logistic Regression ===
+fold 01/15 BA=0.9697 AUC=0.9961 Sens@95=0.9767 MCC=0.9439 time=0.12s
+fold 02/15 BA=0.9767 AUC=1.0000 Sens@95=1.0000 MCC=0.9630 time=0.13s
+fold 03/15 BA=0.9524 AUC=0.9788 Sens@95=0.9048 MCC=0.9258 time=0.12s
+fold 04/15 BA=0.9643 AUC=0.9974 Sens@95=0.9762 MCC=0.9442 time=0.16s
+fold 05/15 BA=0.9930 AUC=1.0000 Sens@95=1.0000 MCC=0.9813 time=0.13s
+fold 06/15 BA=0.9535 AUC=0.9948 Sens@95=0.9535 MCC=0.9266 time=0.15s
+fold 07/15 BA=0.9813 AUC=0.9931 Sens@95=0.9767 MCC=0.9627 time=0.14s
+fold 08/15 BA=0.9524 AUC=0.9980 Sens@95=0.9762 MCC=0.9258 time=0.15s
+fold 09/15 BA=0.9812 AUC=0.9993 Sens@95=1.0000 MCC=0.9623 time=0.13s
+fold 10/15 BA=0.9691 AUC=0.9909 Sens@95=0.9762 MCC=0.9431 time=0.15s
+fold 11/15 BA=0.9813 AUC=0.9987 Sens@95=1.0000 MCC=0.9627 time=0.13s
+fold 12/15 BA=0.9651 AUC=0.9912 Sens@95=0.9302 MCC=0.9447 time=0.16s
+fold 13/15 BA=0.9762 AUC=1.0000 Sens@95=1.0000 MCC=0.9626 time=0.16s
+fold 14/15 BA=0.9623 AUC=0.9871 Sens@95=0.9762 MCC=0.9246 time=0.16s
+fold 15/15 BA=1.0000 AUC=1.0000 Sens@95=1.0000 MCC=1.0000 time=0.17s
+
+=== main_scaled: k-NN ===
+fold 01/15 BA=0.9581 AUC=0.9840 Sens@95=0.9535 MCC=0.9253 time=0.17s
+fold 02/15 BA=0.9535 AUC=0.9997 Sens@95=1.0000 MCC=0.9266 time=0.08s
+fold 03/15 BA=0.9286 AUC=0.9673 Sens@95=0.9048 MCC=0.8895 time=0.08s
+fold 04/15 BA=0.9643 AUC=0.9954 Sens@95=0.9286 MCC=0.9442 time=0.08s
+fold 05/15 BA=0.9930 AUC=0.9980 Sens@95=1.0000 MCC=0.9813 time=0.10s
+fold 06/15 BA=0.9464 AUC=0.9712 Sens@95=0.9070 MCC=0.9068 time=0.08s
+fold 07/15 BA=0.9697 AUC=0.9841 Sens@95=0.9535 MCC=0.9439 time=0.09s
+fold 08/15 BA=0.9573 AUC=0.9947 Sens@95=0.9286 MCC=0.9245 time=0.09s
+fold 09/15 BA=0.9573 AUC=0.9980 Sens@95=1.0000 MCC=0.9245 time=0.09s
+fold 10/15 BA=0.9524 AUC=0.9846 Sens@95=0.9762 MCC=0.9255 time=0.09s
+fold 11/15 BA=0.9627 AUC=0.9941 Sens@95=0.9767 MCC=0.9253 time=0.09s
+fold 12/15 BA=0.9302 AUC=0.9831 Sens@95=0.9767 MCC=0.8907 time=0.09s
+fold 13/15 BA=0.9405 AUC=0.9987 Sens@95=1.0000 MCC=0.9076 time=0.09s
+fold 14/15 BA=0.9762 AUC=0.9850 Sens@95=0.9762 MCC=0.9626 time=0.09s
+fold 15/15 BA=0.9811 AUC=0.9990 Sens@95=1.0000 MCC=0.9621 time=0.09s
+
+=== main_scaled: Random Forest ===
+fold 01/15 BA=0.9581 AUC=0.9864 Sens@95=0.9302 MCC=0.9253 time=1.19s
+fold 02/15 BA=0.9464 AUC=0.9977 Sens@95=1.0000 MCC=0.9068 time=1.20s
+fold 03/15 BA=0.9385 AUC=0.9702 Sens@95=0.9048 MCC=0.8864 time=1.15s
+fold 04/15 BA=0.9653 AUC=0.9960 Sens@95=0.9286 MCC=0.9119 time=1.10s
+fold 05/15 BA=0.9789 AUC=0.9987 Sens@95=1.0000 MCC=0.9455 time=1.17s
+fold 06/15 BA=0.9440 AUC=0.9776 Sens@95=0.9302 MCC=0.8880 time=1.16s
+fold 07/15 BA=0.9697 AUC=0.9966 Sens@95=0.9767 MCC=0.9439 time=1.11s
+fold 08/15 BA=0.9623 AUC=0.9969 Sens@95=0.9762 MCC=0.9246 time=1.20s
+fold 09/15 BA=0.9742 AUC=0.9974 Sens@95=1.0000 MCC=0.9439 time=1.18s
+fold 10/15 BA=0.9572 AUC=0.9884 Sens@95=0.9524 MCC=0.9241 time=1.19s
+fold 11/15 BA=0.9581 AUC=0.9982 Sens@95=1.0000 MCC=0.9253 time=1.16s
+fold 12/15 BA=0.9324 AUC=0.9699 Sens@95=0.9302 MCC=0.8689 time=1.13s
+fold 13/15 BA=0.9435 AUC=0.9924 Sens@95=0.9524 MCC=0.8869 time=1.16s
+fold 14/15 BA=0.9623 AUC=0.9937 Sens@95=0.9762 MCC=0.9246 time=1.19s
+fold 15/15 BA=0.9621 AUC=0.9973 Sens@95=1.0000 MCC=0.9242 time=1.21s
+
+=== main_scaled: RBF SVM ===
+fold 01/15 BA=0.9767 AUC=0.9971 Sens@95=0.9767 MCC=0.9630 time=0.19s
+fold 02/15 BA=0.9743 AUC=0.9967 Sens@95=1.0000 MCC=0.9444 time=0.20s
+fold 03/15 BA=0.9405 AUC=0.9821 Sens@95=0.9524 MCC=0.9076 time=0.20s
+fold 04/15 BA=0.9881 AUC=0.9990 Sens@95=1.0000 MCC=0.9812 time=0.19s
+fold 05/15 BA=0.9859 AUC=1.0000 Sens@95=1.0000 MCC=0.9631 time=0.20s
+fold 06/15 BA=0.9651 AUC=0.9964 Sens@95=0.9767 MCC=0.9447 time=0.19s
+fold 07/15 BA=0.9718 AUC=0.9990 Sens@95=1.0000 MCC=0.9292 time=0.20s
+fold 08/15 BA=0.9881 AUC=0.9980 Sens@95=0.9762 MCC=0.9812 time=0.20s
+fold 09/15 BA=0.9881 AUC=0.9993 Sens@95=1.0000 MCC=0.9812 time=0.20s
+fold 10/15 BA=0.9691 AUC=0.9909 Sens@95=0.9762 MCC=0.9431 time=0.20s
+fold 11/15 BA=0.9697 AUC=0.9990 Sens@95=1.0000 MCC=0.9439 time=0.20s
+fold 12/15 BA=0.9535 AUC=0.9915 Sens@95=0.9070 MCC=0.9266 time=0.19s
+fold 13/15 BA=0.9762 AUC=1.0000 Sens@95=1.0000 MCC=0.9626 time=0.20s
+fold 14/15 BA=0.9673 AUC=0.9871 Sens@95=0.9762 MCC=0.9260 time=0.20s
+fold 15/15 BA=0.9930 AUC=1.0000 Sens@95=1.0000 MCC=0.9813 time=0.20s
+Top algorithms: ['RBF SVM', 'Logistic Regression']
+
+=== no_scaling_ablation: k-NN ===
+fold 01/15 BA=0.8813 AUC=0.9833 Sens@95=0.8372 MCC=0.7951 time=0.07s
+fold 02/15 BA=0.8813 AUC=0.9610 Sens@95=0.9070 MCC=0.7951 time=0.06s
+fold 03/15 BA=0.9196 AUC=0.9593 Sens@95=0.8810 MCC=0.8483 time=0.07s
+fold 04/15 BA=0.9266 AUC=0.9770 Sens@95=0.8810 MCC=0.8675 time=0.07s
+fold 05/15 BA=0.9432 AUC=0.9873 Sens@95=0.9286 MCC=0.8863 time=0.11s
+fold 06/15 BA=0.9021 AUC=0.9576 Sens@95=0.7907 MCC=0.8121 time=0.07s
+fold 07/15 BA=0.9348 AUC=0.9885 Sens@95=0.9535 MCC=0.8885 time=0.10s
+fold 08/15 BA=0.9048 AUC=0.9734 Sens@95=0.8810 MCC=0.8536 time=0.07s
+fold 09/15 BA=0.9077 AUC=0.9841 Sens@95=0.9048 MCC=0.8292 time=0.07s
+fold 10/15 BA=0.9502 AUC=0.9789 Sens@95=0.9286 MCC=0.9050 time=0.07s
+fold 11/15 BA=0.9510 AUC=0.9879 Sens@95=0.9302 MCC=0.9064 time=0.07s
+fold 12/15 BA=0.9161 AUC=0.9584 Sens@95=0.8837 MCC=0.8503 time=0.07s
+fold 13/15 BA=0.9058 AUC=0.9831 Sens@95=0.8333 MCC=0.8115 time=0.07s
+fold 14/15 BA=0.9335 AUC=0.9772 Sens@95=0.9286 MCC=0.8872 time=0.06s
+fold 15/15 BA=0.9074 AUC=0.9710 Sens@95=0.9286 MCC=0.8283 time=0.07s
+
+=== no_scaling_ablation: RBF SVM ===
+fold 01/15 BA=0.8883 AUC=0.9902 Sens@95=0.9070 MCC=0.8161 time=0.38s
+fold 02/15 BA=0.8999 AUC=0.9856 Sens@95=0.9302 MCC=0.8340 time=0.39s
+fold 03/15 BA=0.9008 AUC=0.9570 Sens@95=0.8571 MCC=0.8102 time=0.40s
+fold 04/15 BA=0.9196 AUC=0.9868 Sens@95=0.9524 MCC=0.8483 time=0.38s
+fold 05/15 BA=0.9242 AUC=0.9893 Sens@95=0.9048 MCC=0.8484 time=0.39s
+fold 06/15 BA=0.8950 AUC=0.9800 Sens@95=0.8372 MCC=0.7938 time=0.39s
+fold 07/15 BA=0.9116 AUC=0.9869 Sens@95=0.9070 MCC=0.8521 time=0.41s
+fold 08/15 BA=0.8929 AUC=0.9646 Sens@95=0.8810 MCC=0.8357 time=0.39s
+fold 09/15 BA=0.8869 AUC=0.9815 Sens@95=0.8571 MCC=0.7738 time=0.38s
+fold 10/15 BA=0.9453 AUC=0.9842 Sens@95=0.9048 MCC=0.9054 time=0.38s
+fold 11/15 BA=0.9440 AUC=0.9859 Sens@95=0.9302 MCC=0.8880 time=0.39s
+fold 12/15 BA=0.8975 AUC=0.9545 Sens@95=0.8605 MCC=0.8122 time=0.38s
+fold 13/15 BA=0.9196 AUC=0.9884 Sens@95=0.8810 MCC=0.8483 time=0.40s
+fold 14/15 BA=0.8978 AUC=0.9881 Sens@95=0.9286 MCC=0.8321 time=0.39s
+fold 15/15 BA=0.9004 AUC=0.9755 Sens@95=0.8333 MCC=0.8093 time=0.39s

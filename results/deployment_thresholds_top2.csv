@@ -1,0 +1,3 @@
+algorithm,proposed_deployment_threshold,full_data_oof_sensitivity,full_data_oof_specificity,full_data_oof_brier,best_params_full_data,best_inner_roc_auc_full_data
+RBF SVM,0.29064629344440646,0.9811320754716981,0.9663865546218487,0.02061420078385077,"{""model__C"": 1, ""model__gamma"": 0.01}",0.9947277116618748
+Logistic Regression,0.25870709880934134,0.9716981132075472,0.957983193277311,0.02042377717131052,"{""model__C"": 1}",0.9963622388941747

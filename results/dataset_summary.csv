@@ -1,0 +1,2 @@
+source,doi,license,file,rows,predictors,types,target,class_distribution,missing_values,duplicate_feature_rows,identifier_handling
+"UCI Machine Learning Repository - Breast Cancer Wisconsin (Diagnostic), dataset 17",10.24432/C5DW2B,CC BY 4.0,wdbc.data,569,30,30 real-valued numeric features,Diagnosis: malignant (positive) vs benign,Malignant 212 (37.3%); Benign 357 (62.7%),0,0,ID column excluded before modelling
